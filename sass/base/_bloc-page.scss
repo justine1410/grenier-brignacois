@@ -1,0 +1,15 @@
+#bloc_page{
+    font-family:'Roboto',arial; 
+    margin-top: -380px;
+}
+
+.loading{
+    position: relative;
+    top:300px;
+    left:35%;
+    opacity:0;
+    .fa-warehouse  {
+        font-size:20em;
+        color: $color_primary;
+    }
+}

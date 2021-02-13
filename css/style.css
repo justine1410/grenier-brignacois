@@ -1,3 +1,183 @@
+/***loading***/
+/***page d'acceuil***/
+@keyframes fixe {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/***spinner***/
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes remplire {
+  0% {
+    transform: scale(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scale(0);
+    transform-origin: bottom;
+  }
+}
+/***Page loading***/
+/***page d'acceuil***/
+#bloc_page {
+  animation: fixe 6s;
+}
 
+/***spinner***/
+.loading {
+  animation: loading 6s;
+}
+
+.fa-warehouse {
+  animation: remplire 6s;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  width: 50%;
+  position: relative;
+  left: 30%;
+  bottom: 40px;
+  margin: 0;
+}
+
+.choice_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 550px;
+  margin-bottom: 100px;
+}
+.choice_menu a {
+  width: 30%;
+  height: 250px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #B9F790;
+}
+.choice_menu a .choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choice_menu a ul {
+  list-style-type: none;
+  padding: 1px;
+}
+
+a:hover {
+  color: #336612;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header .logo {
+  position: relative;
+  top: 80px;
+  left: 15%;
+}
+header .logo img {
+  width: 60px;
+  height: 60px;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B9F790;
+  height: 100px;
+  margin: 0;
+}
+header .logo2 {
+  position: relative;
+  left: 80%;
+  bottom: 85px;
+}
+header .logo2 img {
+  width: 60px;
+  height: 60px;
+}
+header .photos_brignac img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+  bottom: 60px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B9F790;
+}
+footer h4 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+footer .social {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer .social .social_position {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+footer .social a {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  color: black;
+}
+footer .social a:hover {
+  color: #336612;
+}
+
+#bloc_page {
+  font-family: "Roboto", arial;
+  margin-top: -380px;
+}
+
+.loading {
+  position: relative;
+  top: 300px;
+  left: 35%;
+  opacity: 0;
+}
+.loading .fa-warehouse {
+  font-size: 20em;
+  color: #B9F790;
+}
 
 /*# sourceMappingURL=style.css.map */
