@@ -1,0 +1,19 @@
+{
+  "name": "grenier-brignacois",
+  "version": "1.0.0",
+  "description": "vide grenier permanent",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justine1410/grenier-brignacois.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justine1410/grenier-brignacois/issues"
+  },
+  "homepage": "https://github.com/justine1410/grenier-brignacois#readme"
+}
