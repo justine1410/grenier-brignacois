@@ -1,105 +1,133 @@
-<!DOCTYPE html>
-<html lang= fr>
-    <head>
-        <meta charset="utf8"/>
-        <meta name="description" content="Le grenier brignacois un vide grenier ouvert fixe, pour trouver des objet, meuble d'occasion toute l'année">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" tye="text/css" href="css/style.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
-        <link rel = "preconnect" href = "https://fonts.gstatic.com">
-        <link href = "https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel ="style.css">
-        <title>Le grenier brignacois</title>
+<!doctype html>
 
-    </head>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <title>BONJOUR</title>
+    </head>
+
     <body>
-        <div class="loading">
-            <i class="fas fa-warehouse"></i>
-        </div>
-        <div id="bloc_page">
-            <header>
-                <div class="logo">
-                    <img src="image/logo.png" alt="logo du grenier brignacois"/>
-                </div>
-                <h1>LE GRENIER BRIGNACOIS<br/>
-                VIDE GRENIER PERMANENT</h1>
-                <div class="logo2">
-                    <img src="image/logo.png" alt="logo du grenier brignacois"/>
-                </div>
-                <div class="photos_brignac">
-                    <img src="image/brignac.png" alt="photos du village de brignac la plaine"/>
-                </div>
-            </header>
-            <main>
-                <h2>L'endroit ou nous donnons une deuxième chance aux objet d'occasion</h2>
-                <div class=choice_menu>
-                    <a href="vaisselle.html">
-                        <div class=choice>
-                            <h3>VAISSELLES:</h3>
-                            <ul>
-                                <li>Verres</li><br/>
-                                <li>Assiettes</li><br/>
-                                <li>Plats...</li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a href="decoration.html">
-                        <div class=choice>
-                            <h3>DECORATION:</h3>
-                            <ul>
-                                <li>Bougeoir</li><br/>
-                                <li>Statuette</li><br/>
-                                <li>Vases...</li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a href="cuisine.html">
-                        <div class=choice>
-                            <h3>CUISINE:</h3>
-                            <ul>
-                                <li>Casseroles</li><br/>
-                                <li>Ustensile</li><br/>
-                                <li>Micro-onde...</li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a href="hifi.html">
-                        <div class=choice>
-                            <h3>APPAREIL HIFI :</h3>
-                            <ul>
-                                <li>DVD</li><br/>
-                                <li>CD</li><br/>
-                                <li>Livres...</li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a href="linge.html">
-                        <div class=choice>
-                            <h3>LINGE DE MAISON :</h3>
-                            <ul>
-                                <li>Draps</li><br/>
-                                <li>torchons</li><br/>
-                                <li>Serviettes...</li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a href="en_cour.html">
-                        <div class=choice>
-                            <h3>EN COURS D'ARRIVAGE :</h3>
-                        </div>
-                    </a>
-                </div>
-            </main>
-            <footer>
-                <h4>Le grenier brignacois - vide grenier permanent</h4>
-                <div class="social">
-                    <div class="social_position">
-                        <a href="https://twitter.com/profil"><span><i class="fab fa-twitter-square"></i></span></a>
-                        <a href="https://facebook.com/profil"><span><i class="fab fa-facebook"></i></span></a>
-                        <a href="https://instagram.com/profil"><span><i class="fab fa-instagram-square"></i></span></a>
+        <!--HEADER-->
+        <header>
+            <div class="bg-dark mb-4">
+                <div class="container">
+                    <div class="row">
+                        <nav class=" col navbar navbar-expand-lg navbar-dark">
+                            <a class="navbar-brand" href="">
+                                <img src="images/logo.png" widht="40" height="30" alt="logo site">
+                                Le grenier Brignacois
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls = " navbarSupportedContent " aria- Expand = " false " aria-label = " Basculer la navigation ">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> 
+                            <div id="navbarContent" class="collapse navbar-collapse">               
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                            <a class="nav-link " href="">Acceuil</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link " href="vaisselle.html">Vaisselle</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="Decoration.html">Décoration</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="devis.html">demande de devis</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                 </div>
-            </footer>
-        </div>
-
-    </body>
+            </div>
+        </header>
+        <!--MAIN-->
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center mb-4">
+                        <div id="carouselControls" class="carousel slide " data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/carousel/brignac.png"  height="200" alt="brignac">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/carousel/vide-grenier.png"  height="200" alt="vide grenier">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-dark" href="#carouselControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Précedent</span>
+                            </a>
+                            <a class="carousel-control-next bg-dark" href="#carouselControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Suivant</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="card shadow">  
+                            <img class="card-img-top" src="images/vaisselle.png" alt="vaisselle">
+                            <a class="card-body text-dark" href="vaisselle.html">
+                                <h5 class="card-title text-center">Vaisselle</h5>
+                                <p class="card-text">Verre</p>
+                                <p class="card-text">Assiette</p>
+                                <p class="card-text">Plat</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card shadow">
+                            <img class="card-img-top" src="images/decoration.png" alt="deco">
+                            <a class="card-body  text-dark" href="decoration.html">
+                                <h5 class="card-title text-center">Decoration</h5>
+                                <p class="card-text">Bougeoire</p>
+                                <p class="card-text">Statuette</p>
+                                <p class="card-text">Vase</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card shadow">
+                            <img class="card-img-top" src="images/cuisine.png" alt="deco">
+                            <a class="card-body text-dark" href="cuisine.html" >
+                                <h5 class="card-title text-center">Cuisine</h5>
+                                <p class="card-text">Casseroles</p>
+                                <p class="card-text">Ustensile</p>
+                                <p class="card-text">Micro-onde</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <div class="bg-dark mt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col ">
+                            <ul class="list-inline text-center text-light">
+                                <li class="list-inline-item"><a class="text-light" href="">A propos</a></li>
+                                <li class="list-inline-item">.</li>
+                                <li class="list-inline-item"><a class="text-light" href="condition.html">Conditions d'utilisations</a></li>
+                                <li class="list-inline-item">.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
+

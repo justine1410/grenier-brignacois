@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <title>BONJOUR</title>
+    </head>
+
+    <body>
+        <!--HEADER-->
+        <header>
+            <div class="bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <nav class=" col navbar navbar-expand-lg navbar-dark">
+                            <a class="navbar-brand" href="">
+                                <img src="images/logo.png" widht="40" height="30" alt="logo site">
+                                Le grenier Brignacois
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls = " navbarSupportedContent " aria- Expand = " false " aria-label = " Basculer la navigation ">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> 
+                            <div id="navbarContent" class="collapse navbar-collapse">               
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                            <a class="nav-link " href="index.html">Acceuil</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link " href="vaisselle.html">Vaisselle</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="Decoration.html">Décoration</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="devis.html">demande de devis</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--MAIN-->
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col jumbotron text-center mt-4">
+                        <H1>Le grenier Brignacois</h1>
+                    </div>
+                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col4">
+                        <div class="form-group ">
+                            <label for="ville">Ou habitez vous?</label>
+                            <input class="form-control" id="ville"  required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="surface">Quelle est la surface de votre bien?</label>
+                            <input class="form-control" id="surface" placeholder="en m2" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Décrivez le contenu à enlever :</label>
+                            <textarea class="form-control" id="description" row="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label="timeInput">Temps :</label>
+                            <input type="text" class="form-control" placeholder="mm:ss" id="heure">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="publicCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Acceptez vous que l'on vous contacte par téléphone
+                            </label>
+                        </div>
+                        <div clas="form-group">
+                            <button type="submit" class="btn btn-primary mt-4 mb-4"> Envoyer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col ">
+                            <ul class="list-inline text-center text-light">
+                                <li class="list-inline-item"><a class="text-light" href="">A propos</a></li>
+                                <li class="list-inline-item">.</li>
+                                <li class="list-inline-item"><a class="text-light" href="condition.html">Conditions d'utilisations</a></li>
+                                <li class="list-inline-item">.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>     
+    </body>
+</html>   
